@@ -1,0 +1,105 @@
+#todo {
+	padding: 0 0 10px 0;
+	margin-top: 50px;
+	border: 1px dashed darkgray;
+}
+
+.todo-complete {
+	text-decoration: line-through;
+}
+
+#count-incomplete, #count-complete {
+	display: none;
+}
+
+.btn-delete {
+	margin-top: 3px;
+}
+
+li.todo-item {
+	margin: 0;
+	line-height: 40px;
+	font-size: 24px;
+}
+
+.todo-input {
+	margin-bottom: 0;
+}
+
+.todo-filter {
+	height: 20px;
+}
+
+.btn-filter {
+	margin-right: 5px;
+	margin-top: 5px;
+	height: 20px;
+	padding: 0;
+	border: none;
+	color: gray;
+}
+
+.btn-filter:hover {
+	background-color: white;
+	border-radius: 0;
+}
+
+.btn-filter:active {
+	border-bottom: 1px solid black;
+	background-color: white;
+	border-radius: 0;
+}
+
+#show-all {
+	margin-left: 15px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	margin: 5px auto;
+	list-style: none;
+}
+
+#todo-header, #todo-footer {
+	padding: 0 15px 0 15px;
+}
+
+ul > li.todo-item {
+	padding: 0 15px 0 15px;
+}
+
+ul > li.todo-item:hover {
+	background-color: lightgray;
+}
+
+input[type='text']:focus {
+	border-color: darkgray;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px darkgray;
+	outline: 0 none;
+}
+
+#todo-header-text {
+	margin-top: 10px;
+	padding-bottom: 3px;
+	border-bottom: dashed 1px darkgray;
+}
+
+#todo-header {
+	border-bottom: dashed 1px darkgray;
+}
+
+#todo-footer {
+	padding-top: 5px;
+	border-top: dashed 1px darkgray;
+}
+
+#todo-list {
+	margin-bottom: 0;
+}
+
+#clear-all {
+	margin-right: 5px;
+}
